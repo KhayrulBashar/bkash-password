@@ -3,14 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JS Practics</title>
+    <link rel="stylesheet" href="./styles.css">
+    <title>KHAYRUL BASHAR | bKash Password</title>
+
 </head>
 <body>
-    
-    <h2 id="result"></h2>
-    <h3>Please don't share your password!</h3>
-    
+    <div class="container">
+        <h1>bKash Password</h1>
+        <hr>
+        <div class="row">
+            <p>Please multiply your bKash password by 1020 (e.g., 38948 * 1020) and input the value:</p>
+            <label for="inputVaue"></label>
+            <input type="number" id="inputVaue" placeholder="Multiply your bKash password by 1020">
+            <span style="color: white; background-color: red;" id="errorMessage"></span> <br>
+            <button id="btn">Get Password</button> <br>
+        <div class="totals">
+            <span id="updateMessage"></span> <br>
+        </div>
+    </div>
 
-    <script src="script.js"></script>
+<script src="./scripts.js"></script>
 </body>
 </html>
